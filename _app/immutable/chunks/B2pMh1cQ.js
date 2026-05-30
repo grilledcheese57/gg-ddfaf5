@@ -1,0 +1,1 @@
+const o="./".replace(/\/$/,""),n={"#":"sharp",b:"flat"},r={sharp:"#",flat:"b"};function s(t){const c=t.slice(1);return c&&n[c]?t[0]+n[c]:t}function a(t){const c=t[0],e=t.slice(1);return e&&r[e]?c+r[e]:t}function f(t,c){return`${o}/chord/${s(t)}/${c}`}function u(t){return`${o}/type/${t}`}export{f as c,a as d,s as e,u as t};
